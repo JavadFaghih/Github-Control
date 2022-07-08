@@ -38,6 +38,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D3F0D0528783A58002E468B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D3F0D0628783A69002E468B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D3F0D0728783A74002E468B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D3F0D0828783AA8002E468B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82196B6F2855BD63005D6424 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D3F0D0928783AC9002E468B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				82196B712855BD63005D6424 /* Main.storyboard */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		82196B5F2855BD63005D6424 = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +94,17 @@
 		82196B6A2855BD63005D6424 /* Github Control */ = {
 			isa = PBXGroup;
 			children = (
-				4D3F0D04287836A7002E468B /* Github Control.entitlements */,
 				82196B6B2855BD63005D6424 /* AppDelegate.swift */,
 				82196B6D2855BD63005D6424 /* SceneDelegate.swift */,
-				82196B6F2855BD63005D6424 /* ViewController.swift */,
-				82196B712855BD63005D6424 /* Main.storyboard */,
+				4D3F0D0628783A69002E468B /* Model */,
+				4D3F0D0528783A58002E468B /* View */,
+				4D3F0D0728783A74002E468B /* ViewModel */,
+				4D3F0D0828783AA8002E468B /* Controllers */,
+				4D3F0D0928783AC9002E468B /* New Group */,
 				82196B742855BD64005D6424 /* Assets.xcassets */,
-				82196B762855BD64005D6424 /* LaunchScreen.storyboard */,
 				82196B792855BD64005D6424 /* Info.plist */,
+				4D3F0D04287836A7002E468B /* Github Control.entitlements */,
+				82196B762855BD64005D6424 /* LaunchScreen.storyboard */,
 			);
 			path = "Github Control";
 			sourceTree = "<group>";
